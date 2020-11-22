@@ -1,2 +1,3 @@
 # dsv-notebooks-julia
-Julia-Notebooks für Digitale Signalverarbeitung
+
+Julia-Notebooks zum besseren Verständnis der digitalen Signalverarbeitung
