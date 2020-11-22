@@ -1,5 +1,8 @@
-# dsv-notebooks-julia
+#dsv-notebooks-julia
 
 Julia-Notebooks zum besseren Verständnis der digitalen Signalverarbeitung
 
-* Fenstermethode: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gdietl/dsv-notebooks-julia/main?urlpath=lab/tree/Fenstermethode.ipynb)
+Open Jupyterlab in browser with:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/gdietl/dsv-notebooks-julia/main?urlpath=lab)
+
+Repository currently set to private because of problems with WebIO!
