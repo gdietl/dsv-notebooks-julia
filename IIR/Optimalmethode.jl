@@ -14,7 +14,14 @@ macro bind(def, element)
 end
 
 # ╔═╡ acb44b30-3a01-11eb-00ad-c72d740adc29
-using Plots, DSP, LaTeXStrings, PlutoUI
+begin
+	using Pkg
+	Pkg.add("DSP")
+	Pkg.add("LaTeXStrings")
+	Pkg.add("PlutoUI")
+
+	using Plots, DSP, LaTeXStrings, PlutoUI
+end
 
 # ╔═╡ 79cc6450-3a01-11eb-085d-2dee3a616165
 md"# Julia-Notebook zur Veranschaulichung der Optimalmethode
