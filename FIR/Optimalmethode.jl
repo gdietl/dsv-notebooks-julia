@@ -37,10 +37,10 @@ Die Parks-McClellan-Methode findet das optimale FIR-Filter unter Verwendung eine
 
 Einstellung der Parameter:
 * Filterordnung $N$: $(@bind N Slider(10:100))
-* Normierte Grenzfrequenz $f_{1}/f_s$: $(@bind f1_norm Slider(.05:.01:.2))
-* Normierter Übergangsbereich $\Delta f_1/f_s$: $(@bind Δf1_norm Slider(0.01:.01:.1))
-* Normierte Grenzfrequenz $f_{2}/f_s$: $(@bind f2_norm Slider(0.25:.01:.45))
-* Normierter Übergangsbereich $\Delta f_{2}/f_s$: $(@bind Δf2_norm Slider(0.01:.01:.1))
+* normierte Grenzfrequenz $f_{1}/f_s$: $(@bind f1_norm Slider(.05:.01:.2))
+* normierter Übergangsbereich $\Delta f_1/f_s$: $(@bind Δf1_norm Slider(0.01:.01:.1))
+* normierte Grenzfrequenz $f_{2}/f_s$: $(@bind f2_norm Slider(0.25:.01:.45))
+* normierter Übergangsbereich $\Delta f_{2}/f_s$: $(@bind Δf2_norm Slider(0.01:.01:.1))
 * Filtertyp: $(@bind filter_type Select(["TP", "HP", "BP", "BS"]))
 
 
@@ -49,10 +49,10 @@ Des weiteren wird angenommen, dass $H^\prime(f)=1$ im Durchlassbereich und $H^\p
 # ╔═╡ 30a4a298-3a05-11eb-24ba-73efa31073a2
 md"Werte der Paramter:
 * Filterordnung $N=$ $(N)
-* Normierte Grenzfrequenz $f_{1}/f_s=$ $(f1_norm)
-* Normierter Übergangsbereich $\Delta f_1/f_s=$ $(Δf1_norm)
-* Normierte Grenzfrequenz $f_{2}/f_s=$ $(f2_norm)
-* Normierter Übergangsbereich $\Delta f_2/f_s=$ $(Δf2_norm)
+* normierte Grenzfrequenz $f_{1}/f_s=$ $(f1_norm)
+* normierter Übergangsbereich $\Delta f_1/f_s=$ $(Δf1_norm)
+* normierte Grenzfrequenz $f_{2}/f_s=$ $(f2_norm)
+* normierter Übergangsbereich $\Delta f_2/f_s=$ $(Δf2_norm)
 
 Frequenzgang:"
 
